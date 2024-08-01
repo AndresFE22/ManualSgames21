@@ -43,6 +43,16 @@
               <v-list-item-title class="titlenavi">{{ section.title }}</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
+
+          <v-list-item class="logo-item">
+        <v-list-item-content>
+          <v-img
+            src="@/assets/logoActualizado.jpg"
+            class="logo"
+            contain
+          ></v-img>
+        </v-list-item-content>
+      </v-list-item>
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
@@ -80,6 +90,16 @@
               <v-list-item-title class="titlenavi">{{ section.title }}</v-list-item-title>
             </v-list-item-content>
           </v-list-item>
+
+          <v-list-item class="logo-item">
+        <v-list-item-content>
+          <v-img
+            src="@/assets/logoActualizado.jpg"
+            class="logo"
+            contain
+          ></v-img>
+        </v-list-item-content>
+      </v-list-item>
         </v-list-item-group>
       </v-list>
     </v-navigation-drawer>
@@ -107,7 +127,9 @@
         <p style="color: white;">Presentado por: <strong>Lina Quitian Gómez</strong></p>
         <p style="color: white;">Revisado por: <strong>Juan Carlos Giraldo Cardozo</strong></p>
         <p style="color: white;">Aprobado por: <strong>Manuel Caro Piñeres</strong> </p>
-      </div>
+        <p style="color: white;">Convertido a formato Web por: <strong>Andres Felipe Arteaga</strong> </p>
+
+    </div>
       <v-divider class="my-4"></v-divider>
       <div class="d-flex justify-center">
         <v-btn
@@ -201,10 +223,6 @@
   <p><img src="${require('@/assets/panel.png')}" alt="Panel de administración" />
      <div class="image-caption">
   Imagen 6: Panel de administración          </div> </p>` },
-          {
-            id: 'creacion',
-            title: 'Creación de contenido',
-          },
           { id: 'crearMecanica', title: 'Crear mecánica', content: `<br> <p>Antes de empezar a crear una mecánica de juego, es indispensable que entienda el concepto de mecánica de juego, esto con el objetivo de entender para qué se crea y el propósito de cada mecánica de juego.</p>
   
   <p>Una mecánica de juego está compuesta por una competencia de aprendizaje, esta es la capacidad de utilizar los conocimientos, habilidades, actitudes y valores que se adquieren o desarrollan en los procesos educativos para resolver problemas y situaciones de la vida cotidiana, personal, profesional y social. El aprendizaje por competencias implica que el estudiante sea activo, reflexivo, crítico y creativo en su proceso de formación, y que pueda transferir lo que aprende a diferentes contextos y situaciones.</p>
@@ -809,6 +827,9 @@
     padding: 10px
   }
   
+
+
+  
   .logo-item {
     display: flex;
     justify-content: center;
@@ -816,7 +837,7 @@
   }
   
   .logo {
-    max-width: 150px; /* Tamaño del logo */
+    max-width: 120px; /* Tamaño del logo */
     ;
   }
   

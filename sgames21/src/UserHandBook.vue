@@ -47,8 +47,8 @@
           <v-list-item class="logo-item">
         <v-list-item-content>
           <v-img
-            src="@/assets/LogoEdutlan2024.svg"
-            class="logo"
+          src="@/assets/LogoEdutlan2024.png"
+          class="logo"
             contain
           ></v-img>
         </v-list-item-content>
@@ -94,7 +94,7 @@
           <v-list-item class="logo-item">
         <v-list-item-content>
           <v-img
-            src="@/assets/LogoEdutlan2024.svg"
+            src="@/assets/LogoEdutlan2024.png"
             class="logo"
             contain
           ></v-img>
